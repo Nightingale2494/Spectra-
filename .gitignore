@@ -1,0 +1,33 @@
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Node.js & Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+*.tsbuildinfo
+
+# Local Runtime Storage & Database (auto-created at startup)
+storage/
+.spectra_pids.json
+
+# Large Pretrained PyTorch Binaries (keep configs & lightweight ONNX)
+models/**/*.bin
+models/**/*.pt
+models/**/*.safetensors
+models/**/.cache/
+
+# Environment & OS files
+.env
+.env.local
+.DS_Store
+Thumbs.db
